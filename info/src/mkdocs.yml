@@ -1,0 +1,24 @@
+site_name: 'TINKOFF INVEST API'
+docs_dir: docs
+repo_url: https://github.com/InvestContest/2024/info
+theme:
+  name: material
+  custom_dir: overrides
+  language: 'ru'
+  palette:
+    primary: black
+    accent: yellow
+  # custom_dir: swagger-iu/
+plugins:
+  - search:
+      indexing: 'full'
+      lang:
+        - en
+        - ru
+      min_search_length: 3
+      prebuild_index: false
+      separator: "[\\s\\-]+"
+
+nav:
+- Начало работы: 
+  - "Начало работы": index.md
